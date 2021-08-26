@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHARE YOUR THOUGTHS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="welcome_section">
+        <h1 style="text-align: center;">welcome to the world of thougths</h1>
+        <div class="container">
+            <div class="row">
+                <% for (i in thougths) {%>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="thougth_para">
+                                    <%=thougths[i].thougth%>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <p>
+                                    submited by
+                                    <%=thougths[i].username%>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <%}%>
+            </div>
+        </div>
+        <div class="button_group_welcome">
+            <a href="/logout"> <button type="submit" class="btn btn-outline-dark">logout</button></a>
+            <a href="/thougth"><button type="button" class="btn btn-outline-dark">submit a secret </button></a>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!-- 
+
+                
+    -->

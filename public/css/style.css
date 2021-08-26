@@ -1,0 +1,105 @@
+    body {
+        background-color: #FDF6F0;
+    }
+    
+    #main_conatiner {
+        margin-top: 20px;
+        padding: 70px;
+    }
+    
+    #register_login_area {
+        position: relative;
+    }
+    
+    #buttons_area {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    
+    .buttons_area {
+        margin-left: 20px;
+    }
+    
+    #thougths_heading {
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    
+    .body_conatiner {
+        padding: 30px;
+    }
+    
+    #image_of_thougth {
+        text-align: center;
+        height: 80%;
+    }
+    
+    .image_1 {
+        background: transparent;
+        height: 70%;
+        margin-top: 40px;
+        border-radius: 50%;
+    }
+    
+    #google_button {
+        margin-top: 10px;
+    }
+    
+    .resgister_section {
+        padding: 10px;
+    }
+    
+    .resgister_section label {
+        width: 30%;
+    }
+    
+    .card {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .section_login {
+        padding: 30px;
+    }
+    
+    .section_login label {
+        width: 30%;
+    }
+    
+    .button_group_welcome {
+        text-align: center;
+    }
+    
+    .welcome_section {
+        text-align: center;
+        padding: 60px;
+    }
+    
+    .welcome_section button {
+        margin-left: 10px;
+    }
+    
+    .thougth_section {
+        padding: 40px;
+        text-align: center;
+    }
+    
+    .thougth_section input {
+        width: 70%;
+    }
+    
+    .thougth_para {
+        width: 100%;
+    }
